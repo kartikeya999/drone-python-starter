@@ -16,7 +16,7 @@ steps:
     repo: kartikeya9/kartikeya-drone
     auto_tag: true
 - name: harness-deploy
-  image: luisredda/drone-simple-plugin
+  image: drone/drone
   settings:
     application: "ECommerce"
     pipeline: "Deploy to K8s again"
