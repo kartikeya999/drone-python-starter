@@ -1,0 +1,11 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: zee-build
+  image: alpine
+  commands:
+  - sleep 10s
+  - echo "Hello Drone"  
