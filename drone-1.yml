@@ -4,7 +4,7 @@ type: docker
 name: default
 
 steps:
-- name: kartikeya-build
+- name: kartik-build
   image: alpine
   commands:
   - sleep 10s
