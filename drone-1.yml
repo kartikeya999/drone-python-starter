@@ -7,6 +7,6 @@ steps:
 - name: kartik-build
   image: alpine
   commands:
-  - sleep 10s
+  - sleep 30s
   - echo "Hello Kartik"  
 
