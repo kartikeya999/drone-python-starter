@@ -18,7 +18,7 @@ steps:
 - name: harness-deploy
   image: drone/drone
   settings:
-    application: "ECommerce"
+    application: "Drone-kartikeya"
     pipeline: "Deploy to K8s again"
     service: "${DRONE_REPO_NAME}"
     build: "${DRONE_TAG}"
