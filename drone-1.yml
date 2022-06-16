@@ -8,5 +8,5 @@ steps:
   image: alpine
   commands:
   - sleep 30s
-  - echo "Hello Kartik"  
+  - echo "Hello Kartikeya"  
 
